@@ -1,0 +1,13 @@
+version: "3"
+services:
+  mydb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    #image: mcr.microsoft.com/azure-sql-edge #for Mac
+    container_name: mydb
+    environment:
+      - ACCEPT_EULA=1
+      - MSSQL_SA_PASSWORD=SuperSecretPass!
+    cap_add:
+      - SYS_PTRACE
+    ports:
+      - "1433:1433"

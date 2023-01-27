@@ -1,0 +1,25 @@
+{
+  "name": "prisma-sqlserver-shadow-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:dev": "DEBUG=\"*\" prisma migrate dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joostme/prisma-sqlserver-shadow-issue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joostme/prisma-sqlserver-shadow-issue/issues"
+  },
+  "homepage": "https://github.com/joostme/prisma-sqlserver-shadow-issue#readme",
+  "dependencies": {
+    "@prisma/client": "^4.9.0",
+    "prisma": "^4.9.0"
+  }
+}
